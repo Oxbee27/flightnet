@@ -10,6 +10,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-300: oklch(80.8% 0.114 19.571);
+    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-red-600: oklch(57.7% 0.245 27.325);
     --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-amber-100: oklch(96.2% 0.059 95.617);
@@ -231,6 +232,12 @@
   }
   .top-25 {
     top: calc(var(--spacing) * 25);
+  }
+  .top-28 {
+    top: calc(var(--spacing) * 28);
+  }
+  .top-30 {
+    top: calc(var(--spacing) * 30);
   }
   .top-35 {
     top: calc(var(--spacing) * 35);
@@ -466,6 +473,9 @@
   .ml-14 {
     margin-left: calc(var(--spacing) * 14);
   }
+  .ml-20 {
+    margin-left: calc(var(--spacing) * 20);
+  }
   .ml-25 {
     margin-left: calc(var(--spacing) * 25);
   }
@@ -477,6 +487,9 @@
   }
   .ml-35 {
     margin-left: calc(var(--spacing) * 35);
+  }
+  .ml-36 {
+    margin-left: calc(var(--spacing) * 36);
   }
   .ml-40 {
     margin-left: calc(var(--spacing) * 40);
@@ -508,8 +521,14 @@
   .table {
     display: table;
   }
+  .h-1 {
+    height: calc(var(--spacing) * 1);
+  }
   .h-2 {
     height: calc(var(--spacing) * 2);
+  }
+  .h-3 {
+    height: calc(var(--spacing) * 3);
   }
   .h-5 {
     height: calc(var(--spacing) * 5);
@@ -565,8 +584,14 @@
   .w-27 {
     width: calc(var(--spacing) * 27);
   }
+  .w-30 {
+    width: calc(var(--spacing) * 30);
+  }
   .w-40 {
     width: calc(var(--spacing) * 40);
+  }
+  .w-45 {
+    width: calc(var(--spacing) * 45);
   }
   .w-50 {
     width: calc(var(--spacing) * 50);
@@ -621,6 +646,9 @@
   }
   .w-\[full\] {
     width: full;
+  }
+  .w-full {
+    width: 100%;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -728,6 +756,9 @@
   .bg-red-300 {
     background-color: var(--color-red-300);
   }
+  .bg-red-500 {
+    background-color: var(--color-red-500);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -828,6 +859,9 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .underline-offset-auto {
+    text-underline-offset: auto;
   }
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
