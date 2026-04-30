@@ -316,8 +316,14 @@
   .bottom-10 {
     bottom: calc(var(--spacing) * 10);
   }
+  .bottom-18 {
+    bottom: calc(var(--spacing) * 18);
+  }
   .bottom-20 {
     bottom: calc(var(--spacing) * 20);
+  }
+  .bottom-25 {
+    bottom: calc(var(--spacing) * 25);
   }
   .bottom-30 {
     bottom: calc(var(--spacing) * 30);
@@ -327,6 +333,9 @@
   }
   .bottom-50 {
     bottom: calc(var(--spacing) * 50);
+  }
+  .bottom-55 {
+    bottom: calc(var(--spacing) * 55);
   }
   .bottom-65 {
     bottom: calc(var(--spacing) * 65);
@@ -483,6 +492,12 @@
   }
   .ml-90 {
     margin-left: calc(var(--spacing) * 90);
+  }
+  .ml-120 {
+    margin-left: calc(var(--spacing) * 120);
+  }
+  .ml-700 {
+    margin-left: calc(var(--spacing) * 700);
   }
   .flex {
     display: flex;
