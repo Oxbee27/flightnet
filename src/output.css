@@ -423,6 +423,18 @@
   .left-238 {
     left: calc(var(--spacing) * 238);
   }
+  .left-240 {
+    left: calc(var(--spacing) * 240);
+  }
+  .left-242 {
+    left: calc(var(--spacing) * 242);
+  }
+  .left-245 {
+    left: calc(var(--spacing) * 245);
+  }
+  .left-250 {
+    left: calc(var(--spacing) * 250);
+  }
   .left-255 {
     left: calc(var(--spacing) * 255);
   }
