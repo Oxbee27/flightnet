@@ -384,6 +384,9 @@
   .left-3 {
     left: calc(var(--spacing) * 3);
   }
+  .left-6 {
+    left: calc(var(--spacing) * 6);
+  }
   .left-10 {
     left: calc(var(--spacing) * 10);
   }
@@ -404,6 +407,12 @@
   }
   .left-50 {
     left: calc(var(--spacing) * 50);
+  }
+  .left-67 {
+    left: calc(var(--spacing) * 67);
+  }
+  .left-68 {
+    left: calc(var(--spacing) * 68);
   }
   .left-70 {
     left: calc(var(--spacing) * 70);
