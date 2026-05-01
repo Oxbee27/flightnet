@@ -1,0 +1,1 @@
+Jadoo_airline is a transparent, customer-centric interface that prioritizes operational clarity and credibility over promotional clutter.  It functions as a digital brochure that immediately answers visitor questions regarding legitimacy, service scope, and contact methods within ten seconds.
